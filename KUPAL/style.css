@@ -362,7 +362,7 @@ h6 {
 }
 
 .card-back .card-content p {
-	font-size: 0.3rem;
+	font-size: 0.5rem;
 	color: var(--text-secondary);
 	margin-bottom: 20px;
 	line-height: 1.5;
@@ -458,7 +458,13 @@ footer {
 		--card-height: 350px;
 		--carousel-radius: 300px;
 	}
-
+.card-back .card-content p {
+	font-size: 0.5rem;
+	color: var(--text-secondary);
+	margin-bottom: 20px;
+	line-height: 1.5;
+	flex-grow: 1;
+}
 	.title {
 		font-size: 1.8rem;
 	}
@@ -498,6 +504,7 @@ footer {
 }
 
 }
+
 
 
 
